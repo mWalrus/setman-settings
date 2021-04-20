@@ -1,0 +1,112 @@
+{
+    "behaviour": {
+        "autorun": false
+    },
+    "misc": {
+        "currentVersion": "2.3.0"
+    },
+    "accounts": {
+        "current": "waalrus_",
+        "uid162691793": {
+            "username": "waalrus_",
+            "userID": "162691793",
+            "clientID": "g5zg0400k4vhrx2g6xi4hgveruamlv",
+            "oauthToken": "ius7iqmo4z9oq268j0poesxh0gyzbn"
+        }
+    },
+    "ui": {
+        "lastSelectChannelTab": 0,
+        "lastSelectIrcConn": -1
+    },
+    "emotes": {
+        "emojiSet": "Twitter"
+    },
+    "highlighting": {
+        "highlights": [
+            {
+                "pattern": "(^|\\s)@?w+a+l+r+u+s+_?(\\s|$)",
+                "showInMentions": true,
+                "alert": true,
+                "sound": true,
+                "regex": true,
+                "case": false,
+                "soundUrl": "",
+                "color": "#7f7f3f49"
+            }
+        ]
+    },
+    "appearance": {
+        "uiScale2": 1.0,
+        "currentFontSize": 10,
+        "currentFontFamily": "Noto Sans",
+        "tabDirection": 0,
+        "hideUserButton": true,
+        "showTabLiveButton": true,
+        "windowAlwaysOnTop": false,
+        "showTabCloseButton": true,
+        "messages": {
+            "alternateMessageBackground": false,
+            "separateMessages": false,
+            "showLastMessageIndicator": false,
+            "findAllUsernames": false
+        },
+        "thumbnailSize": 100,
+        "splitheader": {
+            "showTitle": false,
+            "showUptime": false,
+            "showViewerCount": false
+        },
+        "boldScale": 63.0
+    },
+    "notifications": {
+        "twitch": [
+            "xqcow",
+            "m0xyy"
+        ]
+    },
+    "links": {
+        "linkInfoTooltip": true
+    },
+    "whispers": {
+        "enableInlineWhispers": false
+    },
+    "ignore": {
+        "phrases": [
+            {
+                "pattern": "(BOOBA|COCKA)",
+                "regex": true,
+                "isBlock": true,
+                "replaceWith": "",
+                "caseSensitive": true
+            },
+            {
+                "pattern": "gachi(bass|gasm|hyper|hop|w)",
+                "regex": true,
+                "isBlock": true,
+                "replaceWith": "",
+                "caseSensitive": false
+            },
+            {
+                "pattern": "D:",
+                "regex": false,
+                "isBlock": true,
+                "replaceWith": "",
+                "caseSensitive": true
+            },
+            {
+                "pattern": "AYAYA",
+                "regex": false,
+                "isBlock": true,
+                "replaceWith": "",
+                "caseSensitive": true
+            },
+            {
+                "pattern": "NaM",
+                "regex": false,
+                "isBlock": true,
+                "replaceWith": "",
+                "caseSensitive": true
+            }
+        ]
+    }
+}
