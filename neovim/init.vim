@@ -14,6 +14,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'psliwka/vim-smoothie'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'yamatsum/nvim-cursorline'
+Plug 'windwp/nvim-autopairs'
+Plug 'p00f/nvim-ts-rainbow'
 
 call plug#end()
 " END: VIM-Plug plugins
@@ -43,7 +46,9 @@ if expand('%:t') == ""
 endif
 " improve ux
 set updatetime=300
-
+" set indentLine settings
+let g:indentLine_char = "|"
+let g:indentLine_color_term = 222
 " END: Basic vim configuration
 
 " START: Syntax highlighting configuration
@@ -74,13 +79,13 @@ imap <c-s> <Esc><c-s>
 " copy selection to clipboard
 vnoremap <C-c> "*y
 " auto close brackets and parentheses
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+"inoremap " ""<left>
+"inoremap ' ''<left>
+"inoremap ( ()<left>
+"inoremap [ []<left>
+"inoremap { {}<left>
+"inoremap {<CR> {<CR>}<ESC>O
+"inoremap {;<CR> {<CR>};<ESC>O
 " close all buffers and exit
 nmap <silent> <C-e> :qa<CR>
 " navigate with hjkl in insert mode
@@ -130,8 +135,10 @@ let g:sonokai_disable_italic_comment = 1
 colorscheme sonokai
 " END: Editor colorscheme
 
-" START: treesitter syntaxhighlighting configs
+" START: lua stuff
 lua <<EOF
+require('nvim-autopairs').setup()
+
 require'nvim-treesitter.configs'.setup {
   highlight = {
     enable = true,
@@ -141,9 +148,7 @@ require'nvim-treesitter.configs'.setup {
     },
   },
 }
-EOF
 
-lua <<EOF
 require'nvim-treesitter.configs'.setup {
   incremental_selection = {
     enable = true,
@@ -155,16 +160,22 @@ require'nvim-treesitter.configs'.setup {
     },
   },
 }
-EOF
 
-lua <<EOF
 require'nvim-treesitter.configs'.setup {
   indent = {
     enable = true
   }
 }
+
+require'nvim-treesitter.configs'.setup {
+  rainbow = {
+    enable = true,
+    extended_mode = true, -- Highlight also non-parentheses delimiters, boolean or table: lang -> boolean
+  }
+}
+
 EOF
-" END: treesitter syntaxhighlighting configs
+" END: lua stuff
 " START: functions
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
