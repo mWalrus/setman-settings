@@ -80,13 +80,6 @@
                 "caseSensitive": true
             },
             {
-                "pattern": "gachi(bass|gasm|hyper|hop|w)",
-                "regex": true,
-                "isBlock": true,
-                "replaceWith": "",
-                "caseSensitive": false
-            },
-            {
                 "pattern": "D:",
                 "regex": false,
                 "isBlock": true,
