@@ -99,6 +99,13 @@
                 "isBlock": true,
                 "replaceWith": "",
                 "caseSensitive": true
+            },
+            {
+                "pattern": "gachi(bass|gasm|hyper|hop|pride)",
+                "regex": true,
+                "isBlock": true,
+                "replaceWith": "",
+                "caseSensitive": false
             }
         ]
     }

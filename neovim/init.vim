@@ -17,6 +17,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'yamatsum/nvim-cursorline'
 Plug 'windwp/nvim-autopairs'
 Plug 'p00f/nvim-ts-rainbow'
+Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
+Plug 'monaqa/dial.nvim'
 
 call plug#end()
 " END: VIM-Plug plugins
@@ -42,13 +44,15 @@ autocmd BufWritePre * %s/\s\+$//e
 " auto open coc-explorer on startup
 " if a file was opened we skip opening explorer
 if expand('%:t') == ""
-  autocmd VimEnter * CocCommand explorer
+  autocmd VimEnter * CHADopen .
 endif
 " improve ux
 set updatetime=300
 " set indentLine settings
 let g:indentLine_char = "|"
-let g:indentLine_color_term = 222
+let g:indentLine_color_term = 111
+"chadtree settings
+let g:chadtree_settings = { "view.width": 30, "theme.text_colour_set": "nord" }
 " END: Basic vim configuration
 
 " START: Syntax highlighting configuration
@@ -78,14 +82,6 @@ vmap <c-s> <Esc><c-s>gv
 imap <c-s> <Esc><c-s>
 " copy selection to clipboard
 vnoremap <C-c> "*y
-" auto close brackets and parentheses
-"inoremap " ""<left>
-"inoremap ' ''<left>
-"inoremap ( ()<left>
-"inoremap [ []<left>
-"inoremap { {}<left>
-"inoremap {<CR> {<CR>}<ESC>O
-"inoremap {;<CR> {<CR>};<ESC>O
 " close all buffers and exit
 nmap <silent> <C-e> :qa<CR>
 " navigate with hjkl in insert mode
@@ -93,15 +89,6 @@ inoremap <C-k> <Up>
 inoremap <C-j> <Down>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
-" unbind arrow keys for navigation
-"nmap <Up>    <Nop>
-"nmap <Down>  <Nop>
-"nmap <Left>  <Nop>
-"nmap <Right> <Nop>
-"imap <Up>    <Nop>
-"imap <Down>  <Nop>
-"imap <Left>  <Nop>
-"imap <Right> <Nop>
 " use tab for indent
 nmap >> <Nop>
 nmap << <Nop>
@@ -121,6 +108,9 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 nmap <F2> <Plug>(coc-rename)
 " fuzzy file finder
 nmap ff :Files .<CR>
+" dial.nvim binds
+nmap <C-Up> <Plug>(dial-increment)
+nmap <C-Down> <Plug>(dial-decrement)
 " END: Custom keybinds
 "----
 " START: Editor colorscheme
