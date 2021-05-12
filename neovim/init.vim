@@ -19,6 +19,8 @@ Plug 'windwp/nvim-autopairs'
 Plug 'p00f/nvim-ts-rainbow'
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 Plug 'monaqa/dial.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'TimUntersberger/neogit'
 
 call plug#end()
 " END: VIM-Plug plugins
@@ -111,6 +113,8 @@ nmap ff :Files .<CR>
 " dial.nvim binds
 nmap <C-Up> <Plug>(dial-increment)
 nmap <C-Down> <Plug>(dial-decrement)
+" neogit binds
+nmap <space>c :Neogit commit<CR>
 " END: Custom keybinds
 "----
 " START: Editor colorscheme
@@ -163,6 +167,10 @@ require'nvim-treesitter.configs'.setup {
     extended_mode = true, -- Highlight also non-parentheses delimiters, boolean or table: lang -> boolean
   }
 }
+
+local neogit = require('neogit')
+
+neogit.setup {}
 
 EOF
 " END: lua stuff
