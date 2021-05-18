@@ -10,7 +10,6 @@ Plug 'b3nj5m1n/kommentary'
 Plug 'Yggdroot/indentLine'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'ryanoasis/vim-devicons'
-Plug 'tpope/vim-fugitive'
 Plug 'psliwka/vim-smoothie'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -63,8 +62,6 @@ au BufNewFile,BufRead *.hbs set filetype=html
 
 " START: Custom keybinds
 let mapleader = " "
-" Open the coc-explorer
-nnoremap <space>e :CocCommand explorer<CR>
 " Resize window splits
 nnoremap <silent> <C-A-Up> :resize +5<CR>
 nnoremap <silent> <C-A-Down> :resize -5<CR>
@@ -109,12 +106,13 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 " symbol renaming
 nmap <F2> <Plug>(coc-rename)
 " fuzzy file finder
-nmap ff :Files .<CR>
+nmap ff :Files<CR>
+nmap fg :GFiles<CR>
 " dial.nvim binds
 nmap <C-Up> <Plug>(dial-increment)
 nmap <C-Down> <Plug>(dial-decrement)
 " neogit binds
-nmap <space>c :Neogit commit<CR>
+nmap <space>c :Neogit<CR>
 " END: Custom keybinds
 "----
 " START: Editor colorscheme

@@ -3,7 +3,7 @@
         "autorun": false
     },
     "misc": {
-        "currentVersion": "2.3.0"
+        "currentVersion": "2.3.1"
     },
     "accounts": {
         "current": "waalrus_",
@@ -48,7 +48,8 @@
             "alternateMessageBackground": false,
             "separateMessages": false,
             "showLastMessageIndicator": false,
-            "findAllUsernames": false
+            "findAllUsernames": false,
+            "colorizeNicknames": false
         },
         "thumbnailSize": 100,
         "splitheader": {
