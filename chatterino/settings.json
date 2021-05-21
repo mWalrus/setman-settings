@@ -102,7 +102,7 @@
                 "caseSensitive": true
             },
             {
-                "pattern": "gachi(bass|gasm|hyper|hop|pride)",
+                "pattern": "gachi(bass|gasm|hyper|hop|pride|w)",
                 "regex": true,
                 "isBlock": true,
                 "replaceWith": "",

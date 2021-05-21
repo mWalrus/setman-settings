@@ -123,6 +123,14 @@
         {
             "name": "/doccbt",
             "func": "⣿⣿⣿⣿⣿⡟⠋⠄⠄⠄⠄⠈⢿⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣿⣿⡇⠄⠄⠄⣀⡀⠄⠄⢿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣿⣿⡇⠄⡄⠄⣠⣀⣠⠄⢸⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣿⣿⡇⠄⣿⠋⣁⡉⠻⢀⣠⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣿⢟⠋⠄⣿⣿⣿⣿⣇⡌⠉⠻⣿⣿⣿⣿⣿ ⣿⡟⣫⣍⡄⠐⠈⣲⣭⣭⣥⣼⠄⠶⠄⣽⢻⣿⣿⣿ ⢧⣾⣿⣿⣷⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿⣧⢿⣿⣿ ⣿⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿⣿⡘⣿⣿ ⣿⣿⣿⢋⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿⣿⣷⡹⣿ ⠉⠙⠛⣿⡟⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿⡿⠋⠄⣿ ⠄⠄⠄⣼⡇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠸⢏⡁⠄⠐⣿ ⠄⢸⣿⣬⠣⣀⣀⣀⣀⣀⣀⠈⠛⢻⡾⠇⢀⣀⣴⣿ ⣧⣄⠙⢿⣷⣔⢲⣶⣶⣶⣶⢶⣶⠭⢂⢰⣿⣿⣿⣿ ⣿⣿⣷⠄⠙⠿⣷⣍⣉⡶⢆⢚⣻⣰⣿⣇⢻⣿⣿⣿ ⣿⣿⣿⢀⣧⡄⠘⣿⣿⡿⠗⠛⠛⣿⣿⣿⡏⣿⣿⣿ ⣿⣿⣿⢸⣿⣿⣧⣀⠄⠄⠄⠄⣩⣿⣿⣿⣇⢿⣿⣿ ⣿⣿⠃⣿⣿⣿⣿⣿⣿⡆⣤⢸⣿⣿⣿⣿⣿⡘⣿⣿"
+        },
+        {
+            "name": "/xqcl",
+            "func": "$js let base=\"MTIw MTEz OTk= NzY=\";let dyuvas=base.replace(/\\s/g, \"-\");let uiyvdu=\"\";for(hd of dyuvas.replace(/-/g,\"#\").split(\"#\")){let diuboas=Buffer.from(hd,\"base64\");let bvuuy=parseInt(diuboas);let eqwr=String.fromCharCode(bvuuy);uiyvdu+=eqwr;}"
+        },
+        {
+            "name": "/waytootrihard",
+            "func": "TriHard ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼ WAYTOODANK TriHard ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼ WAYTOODANK TriHard ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼ WAYTOODANK"
         }
     ]
 }

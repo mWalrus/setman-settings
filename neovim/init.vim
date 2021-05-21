@@ -113,6 +113,7 @@ nmap <C-Up> <Plug>(dial-increment)
 nmap <C-Down> <Plug>(dial-decrement)
 " neogit binds
 nmap <space>c :Neogit<CR>
+nmap <space>p :Neogit push<CR>
 " END: Custom keybinds
 "----
 " START: Editor colorscheme
