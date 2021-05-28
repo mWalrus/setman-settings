@@ -5,7 +5,7 @@ tags = ["1. Code", "2. Web", "3. Discord", "4. Code 2", "5. Music", "6. Shell", 
 [[keybind]]
 command = "Execute"
 modifier = ["modkey"]
-value = "qutebrowser"
+value = "firefox"
 key = "b"
 
 [[keybind]]

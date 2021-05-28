@@ -296,12 +296,8 @@
                 {
                     "highlightsEnabled": true,
                     "splits2": {
-                        "flexh": 1,
-                        "flexv": 1,
                         "items": [
                             {
-                                "flexh": 1,
-                                "flexv": 1,
                                 "items": [
                                     {
                                         "data": {
@@ -331,8 +327,6 @@
                                 "type": "vertical"
                             },
                             {
-                                "flexh": 1,
-                                "flexv": 1,
                                 "items": [
                                     {
                                         "data": {
@@ -362,8 +356,6 @@
                                 "type": "vertical"
                             },
                             {
-                                "flexh": 1,
-                                "flexv": 1,
                                 "items": [
                                     {
                                         "data": {
@@ -528,8 +520,8 @@
             ],
             "type": "main",
             "width": 336,
-            "x": 5418,
-            "y": 28
+            "x": -671,
+            "y": 29
         }
     ]
 }
