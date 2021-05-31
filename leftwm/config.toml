@@ -1,6 +1,11 @@
 modkey = "Mod4"
-workspaces = []
 tags = ["1. Code", "2. Web", "3. Discord", "4. Code 2", "5. Music", "6. Shell", "7. Todo", "8. Misc", "9. Misc"]
+
+#[[workspaces]]
+#x = 0
+#y = 0
+#height = 1080
+#width = 5760
 
 [[keybind]]
 command = "Execute"

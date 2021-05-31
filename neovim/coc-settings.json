@@ -6,5 +6,6 @@
   "explorer.file.showHiddenFiles": true,
   "explorer.file.autoReveal": false,
   "explorer.icon.enableVimDevicons": true,
-  "explorer.previewAction.onHover": false
+  "explorer.previewAction.onHover": false,
+  "rust-analyzer.inlayHints.enable": false
 }

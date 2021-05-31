@@ -24,7 +24,6 @@
                 },
                 {
                     "highlightsEnabled": true,
-                    "selected": true,
                     "splits2": {
                         "data": {
                             "name": "m0xyy",
@@ -89,6 +88,7 @@
                 },
                 {
                     "highlightsEnabled": true,
+                    "selected": true,
                     "splits2": {
                         "data": {
                             "name": "pokelawls",
@@ -296,8 +296,12 @@
                 {
                     "highlightsEnabled": true,
                     "splits2": {
+                        "flexh": 1,
+                        "flexv": 1,
                         "items": [
                             {
+                                "flexh": 1,
+                                "flexv": 1,
                                 "items": [
                                     {
                                         "data": {
@@ -327,6 +331,8 @@
                                 "type": "vertical"
                             },
                             {
+                                "flexh": 1,
+                                "flexv": 1,
                                 "items": [
                                     {
                                         "data": {
@@ -356,6 +362,8 @@
                                 "type": "vertical"
                             },
                             {
+                                "flexh": 1,
+                                "flexv": 1,
                                 "items": [
                                     {
                                         "data": {
@@ -411,18 +419,6 @@
                             {
                                 "data": {
                                     "name": "slop3",
-                                    "type": "twitch"
-                                },
-                                "filters": [
-                                ],
-                                "flexh": 1,
-                                "flexv": 1,
-                                "moderationMode": false,
-                                "type": "split"
-                            },
-                            {
-                                "data": {
-                                    "name": "kandyland",
                                     "type": "twitch"
                                 },
                                 "filters": [
@@ -516,12 +512,27 @@
                         "type": "split"
                     },
                     "title": "dby1"
+                },
+                {
+                    "highlightsEnabled": true,
+                    "splits2": {
+                        "data": {
+                            "name": "kandyland",
+                            "type": "twitch"
+                        },
+                        "filters": [
+                        ],
+                        "flexh": 1,
+                        "flexv": 1,
+                        "moderationMode": false,
+                        "type": "split"
+                    }
                 }
             ],
             "type": "main",
             "width": 336,
-            "x": -671,
-            "y": 29
+            "x": 5418,
+            "y": 28
         }
     ]
 }
