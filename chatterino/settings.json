@@ -11,7 +11,7 @@
             "username": "waalrus_",
             "userID": "162691793",
             "clientID": "g5zg0400k4vhrx2g6xi4hgveruamlv",
-            "oauthToken": "ius7iqmo4z9oq268j0poesxh0gyzbn"
+            "oauthToken": "v4hff1pioug714gdwhtsejgbxamkgl"
         }
     },
     "ui": {
@@ -103,6 +103,13 @@
             },
             {
                 "pattern": "gachi(bass|gasm|hyper|hop|pride|w)",
+                "regex": true,
+                "isBlock": true,
+                "replaceWith": "",
+                "caseSensitive": false
+            },
+            {
+                "pattern": "(^!(kenya|dn|split)|DEE.\\sNUT.|G+O+T+E+M+)",
                 "regex": true,
                 "isBlock": true,
                 "replaceWith": "",

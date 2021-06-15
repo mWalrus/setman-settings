@@ -42,7 +42,7 @@
                     "highlightsEnabled": true,
                     "splits2": {
                         "data": {
-                            "name": "fracture_u",
+                            "name": "fracture777",
                             "type": "twitch"
                         },
                         "filters": [
@@ -88,7 +88,6 @@
                 },
                 {
                     "highlightsEnabled": true,
-                    "selected": true,
                     "splits2": {
                         "data": {
                             "name": "pokelawls",
@@ -167,6 +166,7 @@
                 },
                 {
                     "highlightsEnabled": true,
+                    "selected": true,
                     "splits2": {
                         "data": {
                             "name": "taxi2g",
@@ -485,7 +485,7 @@
                     "highlightsEnabled": true,
                     "splits2": {
                         "data": {
-                            "name": "bronzki__",
+                            "name": "nerixyz",
                             "type": "twitch"
                         },
                         "filters": [
@@ -495,7 +495,7 @@
                         "moderationMode": false,
                         "type": "split"
                     },
-                    "title": "bruh"
+                    "title": "neri"
                 },
                 {
                     "highlightsEnabled": true,
@@ -512,21 +512,6 @@
                         "type": "split"
                     },
                     "title": "dby1"
-                },
-                {
-                    "highlightsEnabled": true,
-                    "splits2": {
-                        "data": {
-                            "name": "kandyland",
-                            "type": "twitch"
-                        },
-                        "filters": [
-                        ],
-                        "flexh": 1,
-                        "flexv": 1,
-                        "moderationMode": false,
-                        "type": "split"
-                    }
                 }
             ],
             "type": "main",

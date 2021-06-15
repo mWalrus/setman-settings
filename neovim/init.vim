@@ -52,8 +52,10 @@ set updatetime=300
 " set indentLine settings
 let g:indentLine_char = "|"
 let g:indentLine_color_term = 111
-"chadtree settings
+" chadtree settings
 let g:chadtree_settings = { "view.width": 30, "theme.text_colour_set": "nord" }
+" clipboard
+set clipboard=unnamedplus
 " END: Basic vim configuration
 
 " START: Syntax highlighting configuration
@@ -114,6 +116,8 @@ nmap <C-Down> <Plug>(dial-decrement)
 " neogit binds
 nmap <space>c :Neogit<CR>
 nmap <space>p :Neogit push<CR>
+" md preview toggle
+nmap <C-p> <Plug>MarkdownPreviewToggle
 " END: Custom keybinds
 "----
 " START: Editor colorscheme
