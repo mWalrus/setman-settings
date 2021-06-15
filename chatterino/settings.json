@@ -24,7 +24,7 @@
     "highlighting": {
         "highlights": [
             {
-                "pattern": "(^|\\s)@?w+a+l+r+u+s+_?(\\s|$)",
+                "pattern": "(^|\\s)@?wa+l+r+u+s+_?(\\s|$)",
                 "showInMentions": true,
                 "alert": true,
                 "sound": true,
@@ -109,7 +109,7 @@
                 "caseSensitive": false
             },
             {
-                "pattern": "(^!(kenya|dn|split)|DEE.\\sNUT.|G+O+T+E+M+)",
+                "pattern": "(!(kenya|dn|split)|DEE.\\sNUT.|G+O+T+E+M+)",
                 "regex": true,
                 "isBlock": true,
                 "replaceWith": "",
